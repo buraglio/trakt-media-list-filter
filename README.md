@@ -15,9 +15,9 @@ Create a config.json file that looks like this:
 ## Build it
 
 ```
-go mod init trakt-media-filter
+go mod init trakt-media-list-filter
 go mod tidy
-go build -o trakt-media-filter
+go build -o trakt-media-list-filter
 
 ```
 
@@ -25,12 +25,12 @@ go build -o trakt-media-filter
 ## Use it to build lists 
 
 ### Interactive person search, print matching movies
-`./trakt-media-filter -n "Tura Satana"
+`./trakt-media-list-filter -n "Tura Satana"
 
 ### Create a list with only TV items
-`./trakt-media-filter -n "Kevin Smith" -l "KevinSmithTV" --tv-only`
+`./trakt-media-list-filter -n "Kevin Smith" -l "KevinSmithTV" --tv-only`
 
 ### Create a list with only movies
-`./trakt-media-filter --trakt_id 138 --movies-only -l "NolanMovies"`
+`./trakt-media-list-filter --trakt_id 138 --movies-only -l "NolanMovies"`
 
 
