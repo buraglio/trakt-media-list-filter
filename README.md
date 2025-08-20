@@ -1,10 +1,10 @@
-# Trakt List greater and filter
+# Trakt List creator and filter
 
-This can be used with the trakt API to create lists of things based on filters. 
+This can be used with the trakt API to create lists of things based on filters.
 
 ## Usage
 
-Create a config.json file that looks like this: 
+Create a config.json file that looks like this:
 
 ```
 {
